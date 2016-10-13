@@ -116,6 +116,7 @@
 [debug] == resolving dependencies org.scala-sbt#actions;0.13.8->org.scala-sbt#completion;0.13.8 [compile->default(compile)]
 [info] Resolving org.scala-sbt#completion;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#completion;0.13.8 {compile=[default(compile)]}
+[debug] no default cache defined: set to /Users/jesseprestwood-taylor/.ivy2/cache
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#completion;0.13.8
 [debug] 	found org.scala-sbt#completion;0.13.8 in sbt-chain
 [debug] == resolving dependencies org.scala-sbt#completion;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
@@ -703,9 +704,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 707ms :: artifacts dl 18ms
+[debug] :: resolution report :: resolve 1281ms :: artifacts dl 43ms
 [debug] 	report for default#twitter-sports-scala$sbt_2.11;1.0 default produced in /Users/jesseprestwood-taylor/ScalaProjects/twitter-sports-scala/target/resolution-cache/reports/default-twitter-sports-scala$sbt_2.11-default.xml
-[debug] 	resolve done (707ms resolve - 18ms download)
+[debug] 	resolve done (1281ms resolve - 43ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#twitter-sports-scala$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1069,6 +1070,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] :: resolution report :: resolve 95ms :: artifacts dl 23ms
+[debug] :: resolution report :: resolve 270ms :: artifacts dl 61ms
 [debug] 	report for default#twitter-sports-scala$sources_2.11;1.0 default produced in /Users/jesseprestwood-taylor/ScalaProjects/twitter-sports-scala/target/resolution-cache/reports/default-twitter-sports-scala$sources_2.11-default.xml
-[debug] 	resolve done (95ms resolve - 23ms download)
+[debug] 	resolve done (270ms resolve - 61ms download)

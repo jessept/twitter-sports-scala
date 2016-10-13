@@ -2,7 +2,7 @@ package com.apps.sports_classifier
 
 import java.io.File
 import com.google.gson.Gson
-import org.apache.spark.streaming.twitter.TwitterUtils
+import org.apache.spark.streaming.twitter._
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 

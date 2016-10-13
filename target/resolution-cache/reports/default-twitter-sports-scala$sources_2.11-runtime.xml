@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="runtime"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20161013154043"/>
+		date="20161013171509"/>
 	<dependencies>
 		<module organisation="org.twitter4j" name="twitter4j-core">
 			<revision name="4.0.5" status="release" pubdate="20160913131021" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://twitter4j.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="145">
@@ -18,22 +18,22 @@
 					<artifact name="twitter4j-core" type="jar" ext="jar" status="no" details="" size="302247" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-core/jars/twitter4j-core-4.0.5.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/twitter4j/twitter4j-core/4.0.5/twitter4j-core-4.0.5.jar"/>
 					</artifact>
-					<artifact name="twitter4j-core" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="272117" time="1952" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-core/srcs/twitter4j-core-4.0.5-sources.jar">
+					<artifact name="twitter4j-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="272117" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-core/srcs/twitter4j-core-4.0.5-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/twitter4j/twitter4j-core/4.0.5/twitter4j-core-4.0.5-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
-		<module organisation="org.apache.spark" name="spark-streaming-twitter_2.11">
-			<revision name="1.6.2" status="release" pubdate="20160619190239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="143">
-				<metadata-artifact status="no" details="" size="75433" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/ivy-1.6.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.11/1.6.2/spark-streaming-twitter_2.11-1.6.2.pom"/>
-				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="1.0"/>
+		<module organisation="org.apache.bahir" name="spark-streaming-twitter_2.11">
+			<revision name="2.0.0" status="release" pubdate="20160806060218" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://bahir.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="143">
+				<metadata-artifact status="no" details="" size="16762" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.bahir/spark-streaming-twitter_2.11/ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0.pom"/>
+				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="spark-streaming-twitter_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="10250" time="641" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/srcs/spark-streaming-twitter_2.11-1.6.2-sources.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.11/1.6.2/spark-streaming-twitter_2.11-1.6.2-sources.jar"/>
+					<artifact name="spark-streaming-twitter_2.11" type="jar" ext="jar" status="no" details="" size="21256" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.bahir/spark-streaming-twitter_2.11/jars/spark-streaming-twitter_2.11-2.0.0.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0.jar"/>
 					</artifact>
-					<artifact name="spark-streaming-twitter_2.11" type="jar" ext="jar" status="no" details="" size="23318" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-streaming-twitter_2.11/jars/spark-streaming-twitter_2.11-1.6.2.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/spark/spark-streaming-twitter_2.11/1.6.2/spark-streaming-twitter_2.11-1.6.2.jar"/>
+					<artifact name="spark-streaming-twitter_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10328" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.bahir/spark-streaming-twitter_2.11/srcs/spark-streaming-twitter_2.11-2.0.0-sources.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/apache/bahir/spark-streaming-twitter_2.11/2.0.0/spark-streaming-twitter_2.11-2.0.0-sources.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -44,7 +44,7 @@
 				<metadata-artifact status="no" details="" size="3442" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-stream/ivy-4.0.4.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="4.0.4" rev-constraint-default="4.0.4" rev-constraint-dynamic="4.0.4" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="twitter4j-stream" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="40505" time="683" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-stream/srcs/twitter4j-stream-4.0.4-sources.jar">
+					<artifact name="twitter4j-stream" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="40505" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-stream/srcs/twitter4j-stream-4.0.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/twitter4j/twitter4j-stream/4.0.4/twitter4j-stream-4.0.4-sources.jar"/>
 					</artifact>
 					<artifact name="twitter4j-stream" type="jar" ext="jar" status="no" details="" size="62670" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.twitter4j/twitter4j-stream/jars/twitter4j-stream-4.0.4.jar">
@@ -58,7 +58,7 @@
 				<metadata-artifact status="no" details="" size="3360" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/com.google.code.gson/gson/ivy-2.7.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/com/google/code/gson/gson/2.7/gson-2.7.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.7" rev-constraint-default="2.7" rev-constraint-dynamic="2.7" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="146667" time="1636" location="/Users/jesseprestwood-taylor/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.7-sources.jar">
+					<artifact name="gson" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="146667" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/com.google.code.gson/gson/srcs/gson-2.7-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/google/code/gson/gson/2.7/gson-2.7-sources.jar"/>
 					</artifact>
 					<artifact name="gson" type="jar" ext="jar" status="no" details="" size="231952" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/com.google.code.gson/gson/jars/gson-2.7.jar">
@@ -261,7 +261,7 @@
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-hadoop">
 			<revision name="1.7.0" status="release" pubdate="20150515135000" resolver="jcenter" artresolver="jcenter" homepage="https://parquet.apache.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="128">
-				<metadata-artifact status="successful" details="" size="3525" time="315" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-hadoop/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-hadoop/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3525" time="240" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-hadoop/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-hadoop/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-hadoop/1.7.0/parquet-hadoop-1.7.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="parquet-hadoop" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="128469" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-hadoop/srcs/parquet-hadoop-1.7.0-sources.jar">
@@ -290,7 +290,7 @@
 		<module organisation="org.apache.parquet" name="parquet-format">
 			<revision name="2.3.0-incubating" status="release" pubdate="20150211180000" resolver="jcenter" artresolver="jcenter" homepage="http://parquet.incubator.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="129">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="7001" time="421" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-format/ivy-2.3.0-incubating.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-format/ivy-2.3.0-incubating.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom"/>
+				<metadata-artifact status="successful" details="" size="7001" time="237" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-format/ivy-2.3.0-incubating.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-format/ivy-2.3.0-incubating.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-format/2.3.0-incubating/parquet-format-2.3.0-incubating.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.3.0-incubating" rev-constraint-default="2.3.0-incubating" rev-constraint-dynamic="2.3.0-incubating" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="parquet-format" type="jar" ext="jar" status="no" details="" size="387188" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-format/jars/parquet-format-2.3.0-incubating.jar">
@@ -318,7 +318,7 @@
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-encoding">
 			<revision name="1.7.0" status="release" pubdate="20150515134900" resolver="jcenter" artresolver="jcenter" homepage="https://parquet.apache.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="126">
-				<metadata-artifact status="successful" details="" size="2930" time="387" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-encoding/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-encoding/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2930" time="277" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-encoding/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-encoding/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-encoding/1.7.0/parquet-encoding-1.7.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="parquet-encoding" type="jar" ext="jar" status="no" details="" size="285447" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-encoding/jars/parquet-encoding-1.7.0.jar">
@@ -332,7 +332,7 @@
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-generator">
 			<revision name="1.7.0" status="release" pubdate="20150515134900" resolver="jcenter" artresolver="jcenter" homepage="https://parquet.apache.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="127">
-				<metadata-artifact status="successful" details="" size="1787" time="357" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-generator/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-generator/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1787" time="291" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-generator/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-generator/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-generator/1.7.0/parquet-generator-1.7.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="parquet-generator" type="jar" ext="jar" status="no" details="" size="21243" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-generator/jars/parquet-generator-1.7.0.jar">
@@ -346,7 +346,7 @@
 		</module>
 		<module organisation="org.apache.parquet" name="parquet-common">
 			<revision name="1.7.0" status="release" pubdate="20150515134800" resolver="jcenter" artresolver="jcenter" homepage="https://parquet.apache.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="125">
-				<metadata-artifact status="successful" details="" size="1745" time="360" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-common/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-common/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1745" time="277" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-common/ivy-1.7.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-common/ivy-1.7.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/parquet/parquet-common/1.7.0/parquet-common-1.7.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="1.7.0" rev-constraint-default="1.7.0" rev-constraint-dynamic="1.7.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="parquet-common" type="jar" ext="jar" status="no" details="" size="21575" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.parquet/parquet-common/jars/parquet-common-1.7.0.jar">
@@ -488,7 +488,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
 			<revision name="2.2.0" status="release" pubdate="20131007023723" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="43">
-				<metadata-artifact status="successful" details="" size="5474" time="349" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5474" time="219" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.2.0/hadoop-mapreduce-client-jobclient-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-jobclient" type="jar" ext="jar" status="no" details="" size="35216" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-jobclient/jars/hadoop-mapreduce-client-jobclient-2.2.0.jar">
@@ -502,7 +502,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
 			<revision name="2.2.0" status="release" pubdate="20131007023711" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="31">
-				<metadata-artifact status="successful" details="" size="4335" time="349" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="4335" time="231" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-app/2.2.0/hadoop-mapreduce-client-app-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-app" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="278865" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-app/srcs/hadoop-mapreduce-client-app-2.2.0-sources.jar">
@@ -516,7 +516,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
 			<revision name="2.2.0" status="release" pubdate="20131007023703" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="42">
-				<metadata-artifact status="successful" details="" size="1675" time="353" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1675" time="221" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.2.0/hadoop-mapreduce-client-shuffle-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-shuffle" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10605" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-shuffle/srcs/hadoop-mapreduce-client-shuffle-2.2.0-sources.jar">
@@ -530,7 +530,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
 			<revision name="2.2.0" status="release" pubdate="20131007023538" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="44">
-				<metadata-artifact status="successful" details="" size="7324" time="566" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="7324" time="245" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.2.0/hadoop-yarn-server-nodemanager-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-nodemanager" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="262442" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-nodemanager/srcs/hadoop-yarn-server-nodemanager-2.2.0-sources.jar">
@@ -544,7 +544,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
 			<revision name="2.2.0" status="release" pubdate="20131007023659" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="32">
-				<metadata-artifact status="successful" details="" size="3273" time="354" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3273" time="223" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-common/2.2.0/hadoop-mapreduce-client-common-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="244749" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-common/srcs/hadoop-mapreduce-client-common-2.2.0-sources.jar">
@@ -558,7 +558,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
 			<revision name="2.2.0" status="release" pubdate="20131007023526" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="41">
-				<metadata-artifact status="successful" details="" size="3534" time="350" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3534" time="223" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-server-common/2.2.0/hadoop-yarn-server-common-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-server-common" type="jar" ext="jar" status="no" details="" size="175554" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-server-common/jars/hadoop-yarn-server-common-2.2.0.jar">
@@ -572,7 +572,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
 			<revision name="2.2.0" status="release" pubdate="20131007023626" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="40">
-				<metadata-artifact status="successful" details="" size="3085" time="344" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="3085" time="224" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-mapreduce-client-core/2.2.0/hadoop-mapreduce-client-core-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-mapreduce-client-core" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1008328" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-mapreduce-client-core/srcs/hadoop-mapreduce-client-core-2.2.0-sources.jar">
@@ -586,7 +586,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
 			<revision name="2.2.0" status="release" pubdate="20131007023604" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="39">
-				<metadata-artifact status="successful" details="" size="1961" time="372" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="1961" time="226" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-client" type="jar" ext="jar" status="no" details="" size="94728" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-client/jars/hadoop-yarn-client-2.2.0.jar">
@@ -600,7 +600,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
 			<revision name="2.2.0" status="release" pubdate="20131007023515" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="33">
-				<metadata-artifact status="successful" details="" size="5032" time="357" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="5032" time="243" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-common" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="634761" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-common/srcs/hadoop-yarn-common-2.2.0-sources.jar">
@@ -614,7 +614,7 @@
 		</module>
 		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
 			<revision name="2.2.0" status="release" pubdate="20131007023452" resolver="jcenter" artresolver="jcenter" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="34">
-				<metadata-artifact status="successful" details="" size="2956" time="344" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
+				<metadata-artifact status="successful" details="" size="2956" time="234" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/ivy-2.2.0.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="hadoop-yarn-api" type="jar" ext="jar" status="no" details="" size="1158936" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.hadoop/hadoop-yarn-api/jars/hadoop-yarn-api-2.2.0.jar">
@@ -827,7 +827,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-core_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928213107" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="1">
-				<metadata-artifact status="successful" details="" size="21046" time="455" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="21046" time="440" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-core_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-core_2.11/2.0.1/spark-core_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1732012" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-2.0.1-sources.jar">
@@ -917,11 +917,11 @@
 				<metadata-artifact status="no" details="" size="5230" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/ivy-3.1.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="3.1.2" rev-constraint-default="3.1.2" rev-constraint-dynamic="3.1.2" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/jars/metrics-graphite-3.1.2.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
-					</artifact>
 					<artifact name="metrics-graphite" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="10675" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/srcs/metrics-graphite-3.1.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2-sources.jar"/>
+					</artifact>
+					<artifact name="metrics-graphite" type="jar" ext="jar" status="no" details="" size="20852" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/io.dropwizard.metrics/metrics-graphite/jars/metrics-graphite-3.1.2.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/io/dropwizard/metrics/metrics-graphite/3.1.2/metrics-graphite-3.1.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1263,11 +1263,11 @@
 				<metadata-artifact status="no" details="" size="3897" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/ivy-2.0.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
-					<artifact name="javax.ws.rs-api" type="jar" ext="jar" status="no" details="" size="115534" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/jars/javax.ws.rs-api-2.0.1.jar">
-						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"/>
-					</artifact>
 					<artifact name="javax.ws.rs-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="265372" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/srcs/javax.ws.rs-api-2.0.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1-sources.jar"/>
+					</artifact>
+					<artifact name="javax.ws.rs-api" type="jar" ext="jar" status="no" details="" size="115534" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/javax.ws.rs/javax.ws.rs-api/jars/javax.ws.rs-api-2.0.1.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/javax/ws/rs/javax.ws.rs-api/2.0.1/javax.ws.rs-api-2.0.1.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
@@ -1581,7 +1581,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-unsafe_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928213019" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="57">
-				<metadata-artifact status="successful" details="" size="4659" time="355" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.11/2.0.1/spark-unsafe_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4659" time="223" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-unsafe_2.11/2.0.1/spark-unsafe_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-unsafe_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="33189" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-unsafe_2.11/srcs/spark-unsafe_2.11-2.0.1-sources.jar">
@@ -1609,7 +1609,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-shuffle_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928213653" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="56">
-				<metadata-artifact status="successful" details="" size="3995" time="374" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="3995" time="228" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-shuffle_2.11/2.0.1/spark-network-shuffle_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-network-shuffle_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="37542" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-shuffle_2.11/srcs/spark-network-shuffle_2.11-2.0.1-sources.jar">
@@ -1623,7 +1623,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-network-common_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928213039" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="50">
-				<metadata-artifact status="successful" details="" size="4897" time="336" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="4897" time="235" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-common_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-network-common_2.11/2.0.1/spark-network-common_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-network-common_2.11" type="jar" ext="jar" status="no" details="" size="2355467" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-network-common_2.11/jars/spark-network-common_2.11-2.0.1.jar">
@@ -1722,7 +1722,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-launcher_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928213457" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="45">
-				<metadata-artifact status="successful" details="" size="6390" time="590" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="6390" time="229" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-launcher_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-launcher_2.11/2.0.1/spark-launcher_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-launcher_2.11" type="jar" ext="jar" status="no" details="" size="65654" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-launcher_2.11/jars/spark-launcher_2.11-2.0.1.jar">
@@ -1736,7 +1736,7 @@
 		</module>
 		<module organisation="org.apache.spark" name="spark-tags_2.11">
 			<revision name="2.0.1" status="release" pubdate="20160928213125" resolver="jcenter" artresolver="jcenter" homepage="http://spark.apache.org/" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="46">
-				<metadata-artifact status="successful" details="" size="1856" time="485" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-tags_2.11/2.0.1/spark-tags_2.11-2.0.1.pom"/>
+				<metadata-artifact status="successful" details="" size="1856" time="225" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml" searched="true" original-local-location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-tags_2.11/ivy-2.0.1.xml.original" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/apache/spark/spark-tags_2.11/2.0.1/spark-tags_2.11-2.0.1.pom"/>
 				<caller organisation="default" name="twitter-sports-scala$sources_2.11" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="spark-tags_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14732" time="0" location="/Users/jesseprestwood-taylor/.ivy2/cache/org.apache.spark/spark-tags_2.11/srcs/spark-tags_2.11-2.0.1-sources.jar">

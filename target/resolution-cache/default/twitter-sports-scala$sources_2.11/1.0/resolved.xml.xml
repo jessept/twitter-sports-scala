@@ -4,7 +4,7 @@
 		module="twitter-sports-scala$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20161013154043"
+		publication="20161013171509"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
@@ -453,7 +453,7 @@
 		<dependency org="com.google.code.gson" name="gson" rev="2.7" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="gson" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
-		<dependency org="org.apache.spark" name="spark-streaming-twitter_2.11" rev="1.6.2" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
+		<dependency org="org.apache.bahir" name="spark-streaming-twitter_2.11" rev="2.0.0" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
 			<artifact name="spark-streaming-twitter_2.11" type="src" ext="jar" conf="sources" e:classifier="sources"/>
 		</dependency>
 		<dependency org="org.twitter4j" name="twitter4j-stream" rev="4.0.4" transitive="false" conf="compile->default(compile);runtime->default(compile);test->default(compile);compile-internal->default(compile);runtime-internal->default(compile);test-internal->default(compile)">
