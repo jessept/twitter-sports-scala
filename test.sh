@@ -7,7 +7,7 @@ ${SPARK_HOME}/bin/spark-submit \
      ${NUM_TWEETS_TO_COLLECT:-10000} \
      ${OUTPUT_FILE_INTERVAL_IN_SECS:-10} \
      ${OUTPUT_FILE_PARTITIONS_EACH_INTERVAL:-1} \
-     --consumerKey tqjwZRUmQVLdLk9K8NwvOAbzc \
-     --consumerSecret epjC4yRqRajIPPCjnUySNnugDx9upgUAJ4fRBgtJ4xB53WDbbb \
-     --accessToken 945119833-lbZNTleSchS9kTe1sMDtXf3cp4pUS84Ogw3URMHb  \
-     --accessTokenSecret lclPq8aTWsK3vleAEI4KAa8pmeTbcLjm25fa0yo3vyPNc
+     --consumerKey  \
+     --consumerSecret  \
+     --accessToken   \
+     --accessTokenSecret
