@@ -1,8 +1,9 @@
+package com.apps.sports_classifier
+
 /**
   * Created by jesseprestwood-taylor on 10/12/16.
   */
-
-import org.apache.spark.{SparkContext, SparkConf}
+import org.apache.spark.{SparkConf, SparkContext}
 object WordCountTest {
   def main(args: Array[String]) = {
     val conf = new SparkConf()

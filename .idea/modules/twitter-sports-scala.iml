@@ -23,5 +23,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.11.8:jar" level="project" />
     <orderEntry type="library" name="org.apache.spark:spark-core_2.11:2.0.1" level="project" />
+    <orderEntry type="library" name="org.apache.spark:spark-streaming_2.11:2.0.0" level="project" />
+    <orderEntry type="library" name="org.apache.spark:spark-streaming-twitter_2.11:1.6.2" level="project" />
+    <orderEntry type="library" name="com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="org.apache.spark:spark-mllib_2.11:2.0.0" level="project" />
+    <orderEntry type="library" name="org.twitter4j:twitter4j-core:4.0.5" level="project" />
   </component>
 </module>
